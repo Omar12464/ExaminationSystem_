@@ -82,6 +82,7 @@ namespace ExaminationSystem_.InheritedClasses
             //    }
             //}
             GradeExam();
+            Console.WriteLine();
         }
         //private int CorrectAnswer()
         //{
