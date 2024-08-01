@@ -11,6 +11,7 @@ namespace ExaminationSystem_.BaseClass
         public string Headerofthequestion { get; set; }
         public string BodyoftheQuestion { get; set; }
         public int Mark { get; set; }
+        public Answer Useranswer { get; set; }
         public Answer[] AnswerList { get; set; }
         public Answer RightAnswer { get; set; }
 
@@ -23,7 +24,7 @@ namespace ExaminationSystem_.BaseClass
             RightAnswer = right;
         }
 
-        public abstract override string ToString();
+        //public override string ToString()
         public bool IsCorrect(Answer answer)
         {
             return answer!=null&&answer.Equals(RightAnswer);

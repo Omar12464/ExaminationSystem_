@@ -13,6 +13,7 @@ namespace ExaminationSystem_
             Subject subject = new Subject(sub_Id, sub_Name);
             subject.CreateExam();
             subject.ExamSubject.ShowExam();
+            subject.ExamSubject.ShowCorrectAnswer();
         }
     }
 }

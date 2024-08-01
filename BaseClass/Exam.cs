@@ -30,7 +30,6 @@ namespace ExaminationSystem_.BaseClass
 
         public abstract void ShowExam();
 
-        public abstract void GradeExam();
         public int CompareTo(Exam? other)
         {
             return NumberOfQuestions.CompareTo(other?.NumberOfQuestions);
